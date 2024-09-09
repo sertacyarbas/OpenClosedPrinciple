@@ -1,3 +1,5 @@
+# Open-Closed Principle (OCP) Uygulama Örneği
+
 Bu proje, S.O.L.I.D prensiplerinden ikincisi olan Open-Closed Principle (OCP)'yi göstermek için hazırlanmıştır. Proje, OCP'yi ihlal eden bir yapıyı ve bu ilkeye uygun olarak yeniden yapılandırılmış bir yapıyı içermektedir.
 
 ## Proje Yapısı
