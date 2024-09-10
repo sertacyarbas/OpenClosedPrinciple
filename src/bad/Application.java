@@ -1,9 +1,11 @@
 package bad;
 
-import bad.shapes.*;
+import bad.notification.NotificationService;
+import bad.notification.NotificationType;
 
 public class Application {
     public static void main(String[] args) {
-        ShapeDrawer.drawShape(new Circle());
+        NotificationService notificationService = new NotificationService();
+        notificationService.sendNotification(NotificationType.WHATSAPP, "WhatsApp mesajı");
     }
 }
